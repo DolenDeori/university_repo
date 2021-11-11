@@ -3,7 +3,8 @@
 
 int main(){
     int radius , pi;
-    radius = 5;
+    printf("Enter The Radius : ");
+    scanf("%f" , &radius);
     int area = 3.14*(radius*radius);
     printf("The area is : %i cm" , area);
 }
