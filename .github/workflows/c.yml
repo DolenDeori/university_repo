@@ -40,5 +40,4 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v2
       - name: send email
-        run: |
-          python ./print.py
+        run: python ./print.py
