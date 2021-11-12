@@ -36,4 +36,4 @@ jobs:
   sending-email:
     runs-on: ubuntu-latest
     steps:
-      - run: python {{ github.repository/send_email/send_email.py }}
+      - run: python "${{ github.repository/send_email/send_email.py }}"
