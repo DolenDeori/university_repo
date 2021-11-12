@@ -37,4 +37,5 @@ jobs:
   sending-email:
     runs-on: ubuntu-latest
     steps:
-      - run: send_email.py
+      - run: |
+      python send_email.py
