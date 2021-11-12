@@ -44,7 +44,7 @@ jobs:
         with:
           server_address: smtp.gmail.com
           server_port: 465
-          username: ${{secrets.SENDER_EMAIL}}
+          username: ${{secrets.GMAIL_USERNAME}}
           password: ${{secrets.GMAIL_PASSWORD}}
           subject: Message from github actions.
           to: dulench.deori564@gmail.com
