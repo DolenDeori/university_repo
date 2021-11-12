@@ -1,9 +1,9 @@
 import ssl , smtplib
 
 port = 465
-sender_email = 'deepakdeori54@gmail.com'
-password = 'DEEPAKC@D{RB@}69'
-reciver_email = 'dulench.deori564@gmail.com'
+sender_email = 'Sender_email'
+password = 'my_password'
+reciver_email = 'Receiver_email'
 message = 'You have successfully sended this email through github workflow.'
 contex = ssl.create_default_context()
 
