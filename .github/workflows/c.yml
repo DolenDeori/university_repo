@@ -39,4 +39,4 @@ jobs:
     steps:
       - name: send email
         run: |
-          python university_repo/send_email.py
+          python ./send_email.py
