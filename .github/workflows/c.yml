@@ -39,4 +39,4 @@ jobs:
     steps:
       - name: send email
         run: |
-          python send_email.py
+          python ./send_email/send_email.py
