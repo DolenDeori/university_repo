@@ -33,6 +33,7 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
+      
   sending-email:
     runs-on: ubuntu-latest
     steps:
