@@ -33,3 +33,7 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
+  sending-email:
+    runs-on: unbuntu-latest
+    steps:
+      - run: python {{ github.repository/send_email/send_email.py }}
