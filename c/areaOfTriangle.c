@@ -7,6 +7,6 @@ int main(){
     printf("Enter the height: ");
     scanf("%i" , &height);
 
-    float area = (height*base)/2;
-    printf("The area is %.2f" , area);
+    float area;
+    printf("The area is %f" , area = height*base*0.5);
 }
