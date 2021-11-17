@@ -2,9 +2,9 @@
 #include<math.h>
 
 int main(){
-    int radius , pi;
+    float radius;
     printf("Enter The Radius : ");
     scanf("%f" , &radius);
-    int area = 3.14*(radius*radius);
-    printf("The area is : %i cm" , area);
+    float area = 3.14*(radius*radius);
+    printf("The area is : %f cm" , area);
 }
