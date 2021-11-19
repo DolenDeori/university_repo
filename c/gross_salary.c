@@ -1,8 +1,5 @@
-
 #include<stdio.h>
-#include<conio.h>
-//aitu e niki yu   yaat ami name tu input koribo code add korile aru chaliya hobo,mane ei person tur name - then his gross salary ,,,,aasa ne vailog??,,,, mur net ses ha aami kali aako yaate code prac korim 
-//imane naa
+// #include<conio.h>
 
 int main()
 {
