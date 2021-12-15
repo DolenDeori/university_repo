@@ -6,7 +6,7 @@ int main(){
     {
         for(j='A';j<='E';j++)
         {
-            printf("%c ",i);
+            printf("%c ",j);
         }
         printf("\n");
     }
