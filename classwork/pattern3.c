@@ -2,8 +2,9 @@
 int main(){
     for(int i ='A';i<='E';i++){
         for( int j='A';j<=i;j++){
-            printf("%c",i );
+            printf("%c ",i );
         }
             printf("\n");
     }
+    return 0;
 };
