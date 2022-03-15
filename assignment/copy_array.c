@@ -25,7 +25,7 @@ void main()
         printf("%d ", arr1[i]);
     }
 
-    printf("The elements copied into the second array :\n");
+    printf("\nThe elements copied into the second array :\n");
     for (i = 0; i < n; i++)
     {
         printf("%d ", arr2[i]);
